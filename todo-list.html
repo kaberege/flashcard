@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todo-List</title>
+  <link rel="icon" type="image/x-icon" href="favicon.jpg">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="todoCss.css">
+  <script src="https://kit.fontawesome.com/821e790606.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="listApp">
+    <h1>To-do List</h2>
+    <div class="inputList">
+       <input type="text" id="todo-list" maxlength="15" placeholder="type here..">
+       <button type="submit" id="list-btn">Send</button>
+       <div class="selectDiv">
+         <select id="my-select" for="mySelect">
+           <option value="all">all</option>
+           <option value="completed">completed</option>
+           <option value="uncompleted">uncompleted</option>
+         </select>
+       </div>
+    </div>
+    <div class="outputList">
+      <ul id="listed">
+      </ul>
+    </div>
+  </div>
+<script src="todoJs.js"></script>
+</body>
+</html>

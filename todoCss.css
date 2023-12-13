@@ -1,0 +1,90 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.listApp{
+  width: 80%;
+  max-width: 600px;
+  background: linear-gradient(130deg,rgba(120,230,190,0.6),rgba(230,120,89,0.6),rgba(170,89,250,0.6));
+  margin: 50px auto 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.listApp > h1{
+  color: #af5;
+  padding-bottom: 20px;
+}
+
+.inputList{
+  display: flex;
+}
+
+#todo-list{
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+#list-btn{
+  padding: 10px;
+  border: none;
+}
+
+.outputList{
+  margin-top: 20px;
+}
+
+#listed{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.my-div{
+  display: flex;
+}
+
+.my-text{
+  padding: 7px;
+  background-color: #45ffad;
+  width: 100%;
+  width: 200px;
+}
+
+.my-checkbox, .my-button{
+  padding: 7px;
+  width: 30px;
+  border: none;
+  outline: none;
+  cursor:pointer;
+}
+
+.my-button > i{
+  color: #f34;
+  font-size: 15px;
+}
+
+.my-button:hover{
+  background-color: rgba(105,230,31,1);
+}
+
+.completed{
+   text-decoration: line-through;
+   opacity: 0.5;
+}
+
+.selectDiv{
+  margin-left: 15px;
+}
+
+#my-select{
+  outline: none;
+  border: none;
+  padding: 3px;
+  cursor: pointer;
+}

@@ -1,0 +1,41 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app{
+  width:90%;
+  max-width: 600px;
+  background-color: rgba(128,230,190,0.4);
+  margin: 100px auto 10px;
+  padding: 30px;
+  border-radius: 10px;
+}
+ .app h1{
+  color:#001e4d;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#answer-buttons{
+  padding-top: 20px;
+  color: #f358d4;
+  font-size: 20px;
+}
+
+#next-btn,#show-btn{
+  background:#0014ed;
+  color:#fff;
+  font-weight:500;
+  width:150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.quiz{
+  padding-top: 20px;
+}
