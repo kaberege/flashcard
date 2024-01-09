@@ -8,8 +8,43 @@
 <link rel="stylesheet" href="calculator.css">
 </head>
 <body>
-<div class="calculator">
-  
+<div class="container">
+  <div class="calculator">
+    <form id="inputed">
+      <div class="inputs">
+        <input type="text" id="display" name="display" value="" maxlength="20">  
+      </div>
+      <div class="inputs">
+        <input type="button" id="clear" value="AC">  
+        <input type="button" id="delete" value="DE">  
+        <input type="button" class="insert" value=".">  
+        <input type="button" class="insert" value="/">
+      </div>
+      <div class="inputs">
+        <input type="button" class="insert" value="7">  
+        <input type="button" class="insert" value="8">  
+        <input type="button" class="insert" value="9">  
+        <input type="button" class="insert" value="*">
+      </div>
+      <div class="inputs">
+        <input type="button" class="insert" value="4">  
+        <input type="button" class="insert" value="5">  
+        <input type="button" class="insert" value="6">  
+        <input type="button" class="insert" value="-">
+      </div>
+      <div class="inputs">
+        <input type="button" class="insert" value="1">  
+        <input type="button" class="insert" value="2">  
+        <input type="button" class="insert" value="3">  
+        <input type="button" class="insert" value="+">
+      </div>
+       <div class="inputs">
+        <input type="button" class="insert" value="00">  
+        <input type="button" class="insert" value="0">  
+        <input type="button" id="equal" value="=">
+      </div>
+    </form>
+  </div>
 </div>
 <script src="calculator.js"></script>
 </body>
