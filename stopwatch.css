@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+background-color: rgba(105,105,105,0.1);
+}
+.stopwatch{
+  background: linear-gradient(149deg,rgba(104,202,47,0.4),rgba(204,102,47,0.4),rgba(67,192,207,0.4));
+  width: 80%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto 2px auto;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+button{
+  padding: 5px;
+  border-radius: 50%;
+  outline: none;
+  background-color: rgba(20,20,20,0.7);
+}
+
+button > i{
+  color: rgba(250,250,250);
+  font-size: 20px;
+  font-weight: 500px;
+}
+
+#pause{
+  background-color: rgba(250,3,2,0.5);
+}
+
+.controls{
+  margin-top: 90px;
+}
